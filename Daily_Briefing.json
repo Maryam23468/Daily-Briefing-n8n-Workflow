@@ -1,0 +1,63 @@
+{
+  "name": "Daily Briefing",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "73c33aba-79ce-4a15-b449-7788ebb0f4cc",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "newsCountry": "=us",
+        "baseCurrency": "USD",
+        "targetCurrency": "PKR",
+        "newsFormat": "detailed"
+      },
+      "type": "CUSTOM.dailyBriefing",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ],
+      "id": "42bb41e8-0545-4784-a466-897aee2711cc",
+      "name": "Daily Briefing",
+      "credentials": {
+        "dailyBriefingApi": {
+          "id": "T5Rci9ssIdG0oMzn",
+          "name": "Daily Briefing APIs account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Daily Briefing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "8c31de8f-cae7-4947-8cbc-237510a3e6e0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f6ef8f1002b6b50d74eee3ad2a43a14fe456e824f9e761d174b2ea7ea5c6b7ca"
+  },
+  "id": "KZiQgTGMDNT0JTk2",
+  "tags": []
+}
