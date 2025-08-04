@@ -2,6 +2,10 @@
 🗞️ Daily Briefing — n8n Workflow
 This project provides an automated Daily Briefing using n8n, which fetches top news headlines and the latest currency exchange rate (USD to PKR). It is a great starting point for building personalized daily updates and automating news and financial info gathering.
 
+**Demo Video**
+https://drive.google.com/file/d/1E9y9ac0vXDoWQ3PiPWGiUmv53sJ6UHYR/view?usp=sharing
+https://drive.google.com/file/d/1uI647U4kPMAjwCdHdRi-_Zzcdj5loIvo/view?usp=sharing
+
 📌 Overview
 This workflow is triggered manually and then performs the following actions:
 Retrieves top news headlines from the United States.
